@@ -36,4 +36,25 @@ namespace DanceSportDatabase
         }
         
     }
+
+
+    class CoupleConfiguration
+    {
+        public string nameM, nameF;
+        public int minYear, maxYear, minRating, maxRating;
+        public string minClassLat, maxClassLat, minClassSt, maxClassSt;
+
+        public CoupleConfiguration()
+        {
+            nameM = "";
+            nameF = "";
+            minYear = 1900;
+            maxYear = 2030;
+            minClassLat = "H";
+            maxClassLat = "S";
+            minClassSt = "H";
+            maxClassSt = "S";
+        }
+
+    }
 }
