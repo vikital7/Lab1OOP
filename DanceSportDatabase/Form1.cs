@@ -161,10 +161,10 @@ namespace DanceSportDatabase
 
         }
 
-        private void ResetFilterButtonD_Click(object sender, EventArgs e)
-        {
+        //private void ResetFilterButtonD_Click(object sender, EventArgs e)
+        //{
 
-        }
+        //}
 
         private void TryDeleteCurrentDancer()
         {
