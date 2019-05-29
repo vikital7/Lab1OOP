@@ -195,8 +195,8 @@ namespace DanceSportDatabase
 
         private void SaveButtonC_Click(object sender, EventArgs e)
         {
-            dANCERTableAdapter.Update(this.danceSportDataSet.DANCER);
-            FillTableAdapter(DancerAdapterId);
+            cOUPLETableAdapter.Update(this.danceSportDataSet.COUPLE);
+            FillTableAdapter(CoupleAdapterId);
         }
 
         private void ResetButtonC_Click(object sender, EventArgs e)
