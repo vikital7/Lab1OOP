@@ -60,6 +60,17 @@
             this.SaveButtonD = new System.Windows.Forms.Button();
             this.DataGridViewD = new System.Windows.Forms.DataGridView();
             this.Клуб = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.iDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cLUBIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.surnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sexDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.heightDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.classLatDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.classStDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.yearofBirthDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fullName1DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fullName2DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dANCERBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.danceSportDataSet = new DanceSportDatabase.DanceSportDataSet();
             this.tabPageCouples = new System.Windows.Forms.TabPage();
@@ -101,29 +112,24 @@
             this.Lat2 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.St1 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.St2 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dANCERIDMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dANCERIDFDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.scoreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.yearOfBirthDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.yearOfBirth1DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPageClubs = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.comboBox17 = new System.Windows.Forms.ComboBox();
-            this.label22 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.comboBox18 = new System.Windows.Forms.ComboBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
             this.comboBox19 = new System.Windows.Forms.ComboBox();
-            this.comboBox20 = new System.Windows.Forms.ComboBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
             this.comboBox21 = new System.Windows.Forms.ComboBox();
-            this.comboBox22 = new System.Windows.Forms.ComboBox();
             this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
             this.comboBox23 = new System.Windows.Forms.ComboBox();
             this.label29 = new System.Windows.Forms.Label();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.comboBox24 = new System.Windows.Forms.ComboBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.label30 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -135,7 +141,6 @@
             this.label32 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.comboBox26 = new System.Windows.Forms.ComboBox();
-            this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.comboBox27 = new System.Windows.Forms.ComboBox();
             this.comboBox28 = new System.Windows.Forms.ComboBox();
@@ -145,10 +150,7 @@
             this.comboBox30 = new System.Windows.Forms.ComboBox();
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
-            this.comboBox31 = new System.Windows.Forms.ComboBox();
-            this.label39 = new System.Windows.Forms.Label();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.comboBox32 = new System.Windows.Forms.ComboBox();
             this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.label40 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
@@ -166,24 +168,9 @@
             this.cLUBTableAdapter = new DanceSportDatabase.DanceSportDataSetTableAdapters.CLUBTableAdapter();
             this.cOUPLETableAdapter = new DanceSportDatabase.DanceSportDataSetTableAdapters.COUPLETableAdapter();
             this.tRAINERTableAdapter = new DanceSportDatabase.DanceSportDataSetTableAdapters.TRAINERTableAdapter();
-            this.iDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cLUBIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.surnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sexDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.heightDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.classLatDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.classStDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.yearofBirthDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fullName1DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fullName2DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cOUPLEBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.yearOfBirth1DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.yearOfBirthDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.scoreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dANCERIDFDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dANCERIDMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPageD.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -563,6 +550,7 @@
             this.DataGridViewD.TabIndex = 3;
             this.DataGridViewD.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.DataGridViewD_CellValidating);
             this.DataGridViewD.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridViewD_CellValueChanged);
+            this.DataGridViewD.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.DataGridViewD_DataError);
             // 
             // Клуб
             // 
@@ -570,6 +558,86 @@
             this.Клуб.HeaderText = "Club_name";
             this.Клуб.Name = "Клуб";
             this.Клуб.Width = 85;
+            // 
+            // iDDataGridViewTextBoxColumn1
+            // 
+            this.iDDataGridViewTextBoxColumn1.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn1.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn1.Name = "iDDataGridViewTextBoxColumn1";
+            this.iDDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.iDDataGridViewTextBoxColumn1.Width = 50;
+            // 
+            // cLUBIDDataGridViewTextBoxColumn
+            // 
+            this.cLUBIDDataGridViewTextBoxColumn.DataPropertyName = "CLUB_ID";
+            this.cLUBIDDataGridViewTextBoxColumn.HeaderText = "CLUB_ID";
+            this.cLUBIDDataGridViewTextBoxColumn.Name = "cLUBIDDataGridViewTextBoxColumn";
+            this.cLUBIDDataGridViewTextBoxColumn.Width = 94;
+            // 
+            // nameDataGridViewTextBoxColumn
+            // 
+            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
+            this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
+            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            this.nameDataGridViewTextBoxColumn.Width = 74;
+            // 
+            // surnameDataGridViewTextBoxColumn
+            // 
+            this.surnameDataGridViewTextBoxColumn.DataPropertyName = "Surname";
+            this.surnameDataGridViewTextBoxColumn.HeaderText = "Surname";
+            this.surnameDataGridViewTextBoxColumn.Name = "surnameDataGridViewTextBoxColumn";
+            this.surnameDataGridViewTextBoxColumn.Width = 94;
+            // 
+            // sexDataGridViewTextBoxColumn
+            // 
+            this.sexDataGridViewTextBoxColumn.DataPropertyName = "Sex";
+            this.sexDataGridViewTextBoxColumn.HeaderText = "Sex";
+            this.sexDataGridViewTextBoxColumn.Name = "sexDataGridViewTextBoxColumn";
+            this.sexDataGridViewTextBoxColumn.Width = 60;
+            // 
+            // heightDataGridViewTextBoxColumn
+            // 
+            this.heightDataGridViewTextBoxColumn.DataPropertyName = "Height";
+            this.heightDataGridViewTextBoxColumn.HeaderText = "Height";
+            this.heightDataGridViewTextBoxColumn.Name = "heightDataGridViewTextBoxColumn";
+            this.heightDataGridViewTextBoxColumn.Width = 78;
+            // 
+            // classLatDataGridViewTextBoxColumn
+            // 
+            this.classLatDataGridViewTextBoxColumn.DataPropertyName = "Class_Lat";
+            this.classLatDataGridViewTextBoxColumn.HeaderText = "Class_Lat";
+            this.classLatDataGridViewTextBoxColumn.Name = "classLatDataGridViewTextBoxColumn";
+            this.classLatDataGridViewTextBoxColumn.Width = 99;
+            // 
+            // classStDataGridViewTextBoxColumn
+            // 
+            this.classStDataGridViewTextBoxColumn.DataPropertyName = "Class_St";
+            this.classStDataGridViewTextBoxColumn.HeaderText = "Class_St";
+            this.classStDataGridViewTextBoxColumn.Name = "classStDataGridViewTextBoxColumn";
+            this.classStDataGridViewTextBoxColumn.Width = 92;
+            // 
+            // yearofBirthDataGridViewTextBoxColumn1
+            // 
+            this.yearofBirthDataGridViewTextBoxColumn1.DataPropertyName = "Year_of_Birth";
+            this.yearofBirthDataGridViewTextBoxColumn1.HeaderText = "Year_of_Birth";
+            this.yearofBirthDataGridViewTextBoxColumn1.Name = "yearofBirthDataGridViewTextBoxColumn1";
+            this.yearofBirthDataGridViewTextBoxColumn1.Width = 124;
+            // 
+            // fullName1DataGridViewTextBoxColumn
+            // 
+            this.fullName1DataGridViewTextBoxColumn.DataPropertyName = "FullName1";
+            this.fullName1DataGridViewTextBoxColumn.HeaderText = "FullName1";
+            this.fullName1DataGridViewTextBoxColumn.Name = "fullName1DataGridViewTextBoxColumn";
+            this.fullName1DataGridViewTextBoxColumn.ReadOnly = true;
+            this.fullName1DataGridViewTextBoxColumn.Width = 104;
+            // 
+            // fullName2DataGridViewTextBoxColumn
+            // 
+            this.fullName2DataGridViewTextBoxColumn.DataPropertyName = "FullName2";
+            this.fullName2DataGridViewTextBoxColumn.HeaderText = "FullName2";
+            this.fullName2DataGridViewTextBoxColumn.Name = "fullName2DataGridViewTextBoxColumn";
+            this.fullName2DataGridViewTextBoxColumn.ReadOnly = true;
+            this.fullName2DataGridViewTextBoxColumn.Width = 104;
             // 
             // dANCERBindingSource
             // 
@@ -1017,6 +1085,49 @@
             this.St2.Visible = false;
             this.St2.Width = 35;
             // 
+            // iDDataGridViewTextBoxColumn
+            // 
+            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.iDDataGridViewTextBoxColumn.Width = 50;
+            // 
+            // dANCERIDMDataGridViewTextBoxColumn
+            // 
+            this.dANCERIDMDataGridViewTextBoxColumn.DataPropertyName = "DANCER_ID_M";
+            this.dANCERIDMDataGridViewTextBoxColumn.HeaderText = "DANCER_ID_M";
+            this.dANCERIDMDataGridViewTextBoxColumn.Name = "dANCERIDMDataGridViewTextBoxColumn";
+            this.dANCERIDMDataGridViewTextBoxColumn.Width = 134;
+            // 
+            // dANCERIDFDataGridViewTextBoxColumn
+            // 
+            this.dANCERIDFDataGridViewTextBoxColumn.DataPropertyName = "DANCER_ID_F";
+            this.dANCERIDFDataGridViewTextBoxColumn.HeaderText = "DANCER_ID_F";
+            this.dANCERIDFDataGridViewTextBoxColumn.Name = "dANCERIDFDataGridViewTextBoxColumn";
+            this.dANCERIDFDataGridViewTextBoxColumn.Width = 131;
+            // 
+            // scoreDataGridViewTextBoxColumn
+            // 
+            this.scoreDataGridViewTextBoxColumn.DataPropertyName = "Score";
+            this.scoreDataGridViewTextBoxColumn.HeaderText = "Score";
+            this.scoreDataGridViewTextBoxColumn.Name = "scoreDataGridViewTextBoxColumn";
+            this.scoreDataGridViewTextBoxColumn.Width = 74;
+            // 
+            // yearOfBirthDataGridViewTextBoxColumn
+            // 
+            this.yearOfBirthDataGridViewTextBoxColumn.DataPropertyName = "Year_Of_Birth";
+            this.yearOfBirthDataGridViewTextBoxColumn.HeaderText = "Year_Of_Birth";
+            this.yearOfBirthDataGridViewTextBoxColumn.Name = "yearOfBirthDataGridViewTextBoxColumn";
+            this.yearOfBirthDataGridViewTextBoxColumn.Width = 127;
+            // 
+            // yearOfBirth1DataGridViewTextBoxColumn
+            // 
+            this.yearOfBirth1DataGridViewTextBoxColumn.DataPropertyName = "Year_Of_Birth1";
+            this.yearOfBirth1DataGridViewTextBoxColumn.HeaderText = "Year_Of_Birth1";
+            this.yearOfBirth1DataGridViewTextBoxColumn.Name = "yearOfBirth1DataGridViewTextBoxColumn";
+            this.yearOfBirth1DataGridViewTextBoxColumn.Width = 135;
+            // 
             // tabPageClubs
             // 
             this.tabPageClubs.Controls.Add(this.groupBox3);
@@ -1033,27 +1144,17 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.button1);
             this.groupBox3.Controls.Add(this.label21);
-            this.groupBox3.Controls.Add(this.comboBox17);
-            this.groupBox3.Controls.Add(this.label22);
             this.groupBox3.Controls.Add(this.textBox3);
-            this.groupBox3.Controls.Add(this.comboBox18);
             this.groupBox3.Controls.Add(this.label23);
-            this.groupBox3.Controls.Add(this.label24);
             this.groupBox3.Controls.Add(this.comboBox19);
-            this.groupBox3.Controls.Add(this.comboBox20);
             this.groupBox3.Controls.Add(this.label25);
-            this.groupBox3.Controls.Add(this.label26);
             this.groupBox3.Controls.Add(this.comboBox21);
-            this.groupBox3.Controls.Add(this.comboBox22);
             this.groupBox3.Controls.Add(this.label27);
-            this.groupBox3.Controls.Add(this.label28);
             this.groupBox3.Controls.Add(this.comboBox23);
             this.groupBox3.Controls.Add(this.label29);
-            this.groupBox3.Controls.Add(this.checkBox5);
             this.groupBox3.Controls.Add(this.comboBox24);
-            this.groupBox3.Controls.Add(this.checkBox6);
-            this.groupBox3.Controls.Add(this.label30);
             this.groupBox3.Location = new System.Drawing.Point(26, 18);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(613, 183);
@@ -1064,148 +1165,72 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(56, 45);
+            this.label21.Location = new System.Drawing.Point(56, 35);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(94, 17);
             this.label21.TabIndex = 92;
             this.label21.Text = "Назва клуба:";
             // 
-            // comboBox17
-            // 
-            this.comboBox17.FormattingEnabled = true;
-            this.comboBox17.Items.AddRange(new object[] {
-            "100"});
-            this.comboBox17.Location = new System.Drawing.Point(517, 105);
-            this.comboBox17.Name = "comboBox17";
-            this.comboBox17.Size = new System.Drawing.Size(62, 24);
-            this.comboBox17.TabIndex = 91;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(496, 108);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(13, 17);
-            this.label22.TabIndex = 90;
-            this.label22.Text = "-";
-            // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(163, 43);
+            this.textBox3.Location = new System.Drawing.Point(163, 33);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(153, 22);
             this.textBox3.TabIndex = 71;
             // 
-            // comboBox18
-            // 
-            this.comboBox18.FormattingEnabled = true;
-            this.comboBox18.Items.AddRange(new object[] {
-            "100"});
-            this.comboBox18.Location = new System.Drawing.Point(425, 105);
-            this.comboBox18.Name = "comboBox18";
-            this.comboBox18.Size = new System.Drawing.Size(62, 24);
-            this.comboBox18.TabIndex = 89;
-            // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(20, 77);
+            this.label23.Location = new System.Drawing.Point(20, 67);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(131, 17);
             this.label23.TabIndex = 72;
             this.label23.Text = "Кількість танцорів:";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(354, 108);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(61, 17);
-            this.label24.TabIndex = 88;
-            this.label24.Text = "Клас St:";
             // 
             // comboBox19
             // 
             this.comboBox19.FormattingEnabled = true;
             this.comboBox19.Items.AddRange(new object[] {
             "100"});
-            this.comboBox19.Location = new System.Drawing.Point(163, 74);
+            this.comboBox19.Location = new System.Drawing.Point(163, 64);
             this.comboBox19.Name = "comboBox19";
             this.comboBox19.Size = new System.Drawing.Size(62, 24);
             this.comboBox19.TabIndex = 73;
             // 
-            // comboBox20
-            // 
-            this.comboBox20.FormattingEnabled = true;
-            this.comboBox20.Items.AddRange(new object[] {
-            "100"});
-            this.comboBox20.Location = new System.Drawing.Point(517, 73);
-            this.comboBox20.Name = "comboBox20";
-            this.comboBox20.Size = new System.Drawing.Size(62, 24);
-            this.comboBox20.TabIndex = 87;
-            // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(233, 77);
+            this.label25.Location = new System.Drawing.Point(233, 67);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(13, 17);
             this.label25.TabIndex = 74;
             this.label25.Text = "-";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(496, 76);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(13, 17);
-            this.label26.TabIndex = 86;
-            this.label26.Text = "-";
             // 
             // comboBox21
             // 
             this.comboBox21.FormattingEnabled = true;
             this.comboBox21.Items.AddRange(new object[] {
             "100"});
-            this.comboBox21.Location = new System.Drawing.Point(254, 74);
+            this.comboBox21.Location = new System.Drawing.Point(254, 64);
             this.comboBox21.Name = "comboBox21";
             this.comboBox21.Size = new System.Drawing.Size(62, 24);
             this.comboBox21.TabIndex = 75;
             // 
-            // comboBox22
-            // 
-            this.comboBox22.FormattingEnabled = true;
-            this.comboBox22.Items.AddRange(new object[] {
-            "100"});
-            this.comboBox22.Location = new System.Drawing.Point(425, 73);
-            this.comboBox22.Name = "comboBox22";
-            this.comboBox22.Size = new System.Drawing.Size(62, 24);
-            this.comboBox22.TabIndex = 85;
-            // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(20, 108);
+            this.label27.Location = new System.Drawing.Point(20, 98);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(131, 17);
             this.label27.TabIndex = 76;
             this.label27.Text = "Кількість тренерів:";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(347, 76);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(68, 17);
-            this.label28.TabIndex = 84;
-            this.label28.Text = "Клас Lat:";
             // 
             // comboBox23
             // 
             this.comboBox23.FormattingEnabled = true;
             this.comboBox23.Items.AddRange(new object[] {
             "100"});
-            this.comboBox23.Location = new System.Drawing.Point(163, 105);
+            this.comboBox23.Location = new System.Drawing.Point(163, 95);
             this.comboBox23.Name = "comboBox23";
             this.comboBox23.Size = new System.Drawing.Size(62, 24);
             this.comboBox23.TabIndex = 77;
@@ -1213,50 +1238,21 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(233, 108);
+            this.label29.Location = new System.Drawing.Point(233, 98);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(13, 17);
             this.label29.TabIndex = 78;
             this.label29.Text = "-";
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(472, 44);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(43, 21);
-            this.checkBox5.TabIndex = 82;
-            this.checkBox5.Text = "Ж";
-            this.checkBox5.UseVisualStyleBackColor = true;
             // 
             // comboBox24
             // 
             this.comboBox24.FormattingEnabled = true;
             this.comboBox24.Items.AddRange(new object[] {
             "100"});
-            this.comboBox24.Location = new System.Drawing.Point(254, 105);
+            this.comboBox24.Location = new System.Drawing.Point(254, 95);
             this.comboBox24.Name = "comboBox24";
             this.comboBox24.Size = new System.Drawing.Size(62, 24);
             this.comboBox24.TabIndex = 79;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(426, 44);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(40, 21);
-            this.checkBox6.TabIndex = 81;
-            this.checkBox6.Text = "Ч";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(366, 45);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(50, 17);
-            this.label30.TabIndex = 80;
-            this.label30.Text = "Стать:";
             // 
             // button4
             // 
@@ -1312,12 +1308,12 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.button2);
             this.groupBox4.Controls.Add(this.label31);
             this.groupBox4.Controls.Add(this.comboBox25);
             this.groupBox4.Controls.Add(this.label32);
             this.groupBox4.Controls.Add(this.textBox4);
             this.groupBox4.Controls.Add(this.comboBox26);
-            this.groupBox4.Controls.Add(this.label33);
             this.groupBox4.Controls.Add(this.label34);
             this.groupBox4.Controls.Add(this.comboBox27);
             this.groupBox4.Controls.Add(this.comboBox28);
@@ -1327,10 +1323,7 @@
             this.groupBox4.Controls.Add(this.comboBox30);
             this.groupBox4.Controls.Add(this.label37);
             this.groupBox4.Controls.Add(this.label38);
-            this.groupBox4.Controls.Add(this.comboBox31);
-            this.groupBox4.Controls.Add(this.label39);
             this.groupBox4.Controls.Add(this.checkBox7);
-            this.groupBox4.Controls.Add(this.comboBox32);
             this.groupBox4.Controls.Add(this.checkBox8);
             this.groupBox4.Controls.Add(this.label40);
             this.groupBox4.Location = new System.Drawing.Point(26, 18);
@@ -1343,7 +1336,7 @@
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(47, 45);
+            this.label31.Location = new System.Drawing.Point(47, 35);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(107, 17);
             this.label31.TabIndex = 92;
@@ -1354,7 +1347,7 @@
             this.comboBox25.FormattingEnabled = true;
             this.comboBox25.Items.AddRange(new object[] {
             "100"});
-            this.comboBox25.Location = new System.Drawing.Point(517, 105);
+            this.comboBox25.Location = new System.Drawing.Point(517, 95);
             this.comboBox25.Name = "comboBox25";
             this.comboBox25.Size = new System.Drawing.Size(62, 24);
             this.comboBox25.TabIndex = 91;
@@ -1362,7 +1355,7 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(496, 108);
+            this.label32.Location = new System.Drawing.Point(496, 98);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(13, 17);
             this.label32.TabIndex = 90;
@@ -1370,7 +1363,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(163, 43);
+            this.textBox4.Location = new System.Drawing.Point(163, 33);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(153, 22);
             this.textBox4.TabIndex = 71;
@@ -1380,24 +1373,15 @@
             this.comboBox26.FormattingEnabled = true;
             this.comboBox26.Items.AddRange(new object[] {
             "100"});
-            this.comboBox26.Location = new System.Drawing.Point(425, 105);
+            this.comboBox26.Location = new System.Drawing.Point(425, 95);
             this.comboBox26.Name = "comboBox26";
             this.comboBox26.Size = new System.Drawing.Size(62, 24);
             this.comboBox26.TabIndex = 89;
             // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(107, 77);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(46, 17);
-            this.label33.TabIndex = 72;
-            this.label33.Text = "Зріст:";
-            // 
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(354, 108);
+            this.label34.Location = new System.Drawing.Point(354, 98);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(61, 17);
             this.label34.TabIndex = 88;
@@ -1408,7 +1392,7 @@
             this.comboBox27.FormattingEnabled = true;
             this.comboBox27.Items.AddRange(new object[] {
             "100"});
-            this.comboBox27.Location = new System.Drawing.Point(163, 74);
+            this.comboBox27.Location = new System.Drawing.Point(163, 64);
             this.comboBox27.Name = "comboBox27";
             this.comboBox27.Size = new System.Drawing.Size(62, 24);
             this.comboBox27.TabIndex = 73;
@@ -1418,7 +1402,7 @@
             this.comboBox28.FormattingEnabled = true;
             this.comboBox28.Items.AddRange(new object[] {
             "100"});
-            this.comboBox28.Location = new System.Drawing.Point(517, 73);
+            this.comboBox28.Location = new System.Drawing.Point(517, 63);
             this.comboBox28.Name = "comboBox28";
             this.comboBox28.Size = new System.Drawing.Size(62, 24);
             this.comboBox28.TabIndex = 87;
@@ -1426,7 +1410,7 @@
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(233, 77);
+            this.label35.Location = new System.Drawing.Point(233, 67);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(13, 17);
             this.label35.TabIndex = 74;
@@ -1435,7 +1419,7 @@
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(496, 76);
+            this.label36.Location = new System.Drawing.Point(496, 66);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(13, 17);
             this.label36.TabIndex = 86;
@@ -1446,7 +1430,7 @@
             this.comboBox29.FormattingEnabled = true;
             this.comboBox29.Items.AddRange(new object[] {
             "100"});
-            this.comboBox29.Location = new System.Drawing.Point(254, 74);
+            this.comboBox29.Location = new System.Drawing.Point(254, 64);
             this.comboBox29.Name = "comboBox29";
             this.comboBox29.Size = new System.Drawing.Size(62, 24);
             this.comboBox29.TabIndex = 75;
@@ -1456,7 +1440,7 @@
             this.comboBox30.FormattingEnabled = true;
             this.comboBox30.Items.AddRange(new object[] {
             "100"});
-            this.comboBox30.Location = new System.Drawing.Point(425, 73);
+            this.comboBox30.Location = new System.Drawing.Point(425, 63);
             this.comboBox30.Name = "comboBox30";
             this.comboBox30.Size = new System.Drawing.Size(62, 24);
             this.comboBox30.TabIndex = 85;
@@ -1464,7 +1448,7 @@
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(29, 108);
+            this.label37.Location = new System.Drawing.Point(29, 68);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(124, 17);
             this.label37.TabIndex = 76;
@@ -1473,55 +1457,26 @@
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(347, 76);
+            this.label38.Location = new System.Drawing.Point(347, 66);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(68, 17);
             this.label38.TabIndex = 84;
             this.label38.Text = "Клас Lat:";
             // 
-            // comboBox31
-            // 
-            this.comboBox31.FormattingEnabled = true;
-            this.comboBox31.Items.AddRange(new object[] {
-            "100"});
-            this.comboBox31.Location = new System.Drawing.Point(163, 105);
-            this.comboBox31.Name = "comboBox31";
-            this.comboBox31.Size = new System.Drawing.Size(62, 24);
-            this.comboBox31.TabIndex = 77;
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(233, 108);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(13, 17);
-            this.label39.TabIndex = 78;
-            this.label39.Text = "-";
-            // 
             // checkBox7
             // 
             this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(472, 44);
+            this.checkBox7.Location = new System.Drawing.Point(472, 34);
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(43, 21);
             this.checkBox7.TabIndex = 82;
             this.checkBox7.Text = "Ж";
             this.checkBox7.UseVisualStyleBackColor = true;
             // 
-            // comboBox32
-            // 
-            this.comboBox32.FormattingEnabled = true;
-            this.comboBox32.Items.AddRange(new object[] {
-            "100"});
-            this.comboBox32.Location = new System.Drawing.Point(254, 105);
-            this.comboBox32.Name = "comboBox32";
-            this.comboBox32.Size = new System.Drawing.Size(62, 24);
-            this.comboBox32.TabIndex = 79;
-            // 
             // checkBox8
             // 
             this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(426, 44);
+            this.checkBox8.Location = new System.Drawing.Point(426, 34);
             this.checkBox8.Name = "checkBox8";
             this.checkBox8.Size = new System.Drawing.Size(40, 21);
             this.checkBox8.TabIndex = 81;
@@ -1531,7 +1486,7 @@
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(366, 45);
+            this.label40.Location = new System.Drawing.Point(366, 35);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(50, 17);
             this.label40.TabIndex = 80;
@@ -1552,7 +1507,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(169, 53);
             this.button8.TabIndex = 84;
-            this.button8.Text = "Видалити танцора";
+            this.button8.Text = "Видалити тренера";
             this.button8.UseVisualStyleBackColor = true;
             // 
             // button9
@@ -1644,133 +1599,28 @@
             // 
             this.tRAINERTableAdapter.ClearBeforeFill = true;
             // 
-            // iDDataGridViewTextBoxColumn1
-            // 
-            this.iDDataGridViewTextBoxColumn1.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn1.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn1.Name = "iDDataGridViewTextBoxColumn1";
-            this.iDDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.iDDataGridViewTextBoxColumn1.Width = 50;
-            // 
-            // cLUBIDDataGridViewTextBoxColumn
-            // 
-            this.cLUBIDDataGridViewTextBoxColumn.DataPropertyName = "CLUB_ID";
-            this.cLUBIDDataGridViewTextBoxColumn.HeaderText = "CLUB_ID";
-            this.cLUBIDDataGridViewTextBoxColumn.Name = "cLUBIDDataGridViewTextBoxColumn";
-            this.cLUBIDDataGridViewTextBoxColumn.Width = 94;
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            this.nameDataGridViewTextBoxColumn.Width = 74;
-            // 
-            // surnameDataGridViewTextBoxColumn
-            // 
-            this.surnameDataGridViewTextBoxColumn.DataPropertyName = "Surname";
-            this.surnameDataGridViewTextBoxColumn.HeaderText = "Surname";
-            this.surnameDataGridViewTextBoxColumn.Name = "surnameDataGridViewTextBoxColumn";
-            this.surnameDataGridViewTextBoxColumn.Width = 94;
-            // 
-            // sexDataGridViewTextBoxColumn
-            // 
-            this.sexDataGridViewTextBoxColumn.DataPropertyName = "Sex";
-            this.sexDataGridViewTextBoxColumn.HeaderText = "Sex";
-            this.sexDataGridViewTextBoxColumn.Name = "sexDataGridViewTextBoxColumn";
-            this.sexDataGridViewTextBoxColumn.Width = 60;
-            // 
-            // heightDataGridViewTextBoxColumn
-            // 
-            this.heightDataGridViewTextBoxColumn.DataPropertyName = "Height";
-            this.heightDataGridViewTextBoxColumn.HeaderText = "Height";
-            this.heightDataGridViewTextBoxColumn.Name = "heightDataGridViewTextBoxColumn";
-            this.heightDataGridViewTextBoxColumn.Width = 78;
-            // 
-            // classLatDataGridViewTextBoxColumn
-            // 
-            this.classLatDataGridViewTextBoxColumn.DataPropertyName = "Class_Lat";
-            this.classLatDataGridViewTextBoxColumn.HeaderText = "Class_Lat";
-            this.classLatDataGridViewTextBoxColumn.Name = "classLatDataGridViewTextBoxColumn";
-            this.classLatDataGridViewTextBoxColumn.Width = 99;
-            // 
-            // classStDataGridViewTextBoxColumn
-            // 
-            this.classStDataGridViewTextBoxColumn.DataPropertyName = "Class_St";
-            this.classStDataGridViewTextBoxColumn.HeaderText = "Class_St";
-            this.classStDataGridViewTextBoxColumn.Name = "classStDataGridViewTextBoxColumn";
-            this.classStDataGridViewTextBoxColumn.Width = 92;
-            // 
-            // yearofBirthDataGridViewTextBoxColumn1
-            // 
-            this.yearofBirthDataGridViewTextBoxColumn1.DataPropertyName = "Year_of_Birth";
-            this.yearofBirthDataGridViewTextBoxColumn1.HeaderText = "Year_of_Birth";
-            this.yearofBirthDataGridViewTextBoxColumn1.Name = "yearofBirthDataGridViewTextBoxColumn1";
-            this.yearofBirthDataGridViewTextBoxColumn1.Width = 124;
-            // 
-            // fullName1DataGridViewTextBoxColumn
-            // 
-            this.fullName1DataGridViewTextBoxColumn.DataPropertyName = "FullName1";
-            this.fullName1DataGridViewTextBoxColumn.HeaderText = "FullName1";
-            this.fullName1DataGridViewTextBoxColumn.Name = "fullName1DataGridViewTextBoxColumn";
-            this.fullName1DataGridViewTextBoxColumn.ReadOnly = true;
-            this.fullName1DataGridViewTextBoxColumn.Width = 104;
-            // 
-            // fullName2DataGridViewTextBoxColumn
-            // 
-            this.fullName2DataGridViewTextBoxColumn.DataPropertyName = "FullName2";
-            this.fullName2DataGridViewTextBoxColumn.HeaderText = "FullName2";
-            this.fullName2DataGridViewTextBoxColumn.Name = "fullName2DataGridViewTextBoxColumn";
-            this.fullName2DataGridViewTextBoxColumn.ReadOnly = true;
-            this.fullName2DataGridViewTextBoxColumn.Width = 104;
-            // 
             // cOUPLEBindingSource
             // 
             this.cOUPLEBindingSource.DataMember = "COUPLE";
             this.cOUPLEBindingSource.DataSource = this.danceSportDataSet;
             // 
-            // yearOfBirth1DataGridViewTextBoxColumn
+            // button1
             // 
-            this.yearOfBirth1DataGridViewTextBoxColumn.DataPropertyName = "Year_Of_Birth1";
-            this.yearOfBirth1DataGridViewTextBoxColumn.HeaderText = "Year_Of_Birth1";
-            this.yearOfBirth1DataGridViewTextBoxColumn.Name = "yearOfBirth1DataGridViewTextBoxColumn";
-            this.yearOfBirth1DataGridViewTextBoxColumn.Width = 135;
+            this.button1.Location = new System.Drawing.Point(425, 134);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(154, 26);
+            this.button1.TabIndex = 76;
+            this.button1.Text = "Скинути фільтр";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // yearOfBirthDataGridViewTextBoxColumn
+            // button2
             // 
-            this.yearOfBirthDataGridViewTextBoxColumn.DataPropertyName = "Year_Of_Birth";
-            this.yearOfBirthDataGridViewTextBoxColumn.HeaderText = "Year_Of_Birth";
-            this.yearOfBirthDataGridViewTextBoxColumn.Name = "yearOfBirthDataGridViewTextBoxColumn";
-            this.yearOfBirthDataGridViewTextBoxColumn.Width = 127;
-            // 
-            // scoreDataGridViewTextBoxColumn
-            // 
-            this.scoreDataGridViewTextBoxColumn.DataPropertyName = "Score";
-            this.scoreDataGridViewTextBoxColumn.HeaderText = "Score";
-            this.scoreDataGridViewTextBoxColumn.Name = "scoreDataGridViewTextBoxColumn";
-            this.scoreDataGridViewTextBoxColumn.Width = 74;
-            // 
-            // dANCERIDFDataGridViewTextBoxColumn
-            // 
-            this.dANCERIDFDataGridViewTextBoxColumn.DataPropertyName = "DANCER_ID_F";
-            this.dANCERIDFDataGridViewTextBoxColumn.HeaderText = "DANCER_ID_F";
-            this.dANCERIDFDataGridViewTextBoxColumn.Name = "dANCERIDFDataGridViewTextBoxColumn";
-            this.dANCERIDFDataGridViewTextBoxColumn.Width = 131;
-            // 
-            // dANCERIDMDataGridViewTextBoxColumn
-            // 
-            this.dANCERIDMDataGridViewTextBoxColumn.DataPropertyName = "DANCER_ID_M";
-            this.dANCERIDMDataGridViewTextBoxColumn.HeaderText = "DANCER_ID_M";
-            this.dANCERIDMDataGridViewTextBoxColumn.Name = "dANCERIDMDataGridViewTextBoxColumn";
-            this.dANCERIDMDataGridViewTextBoxColumn.Width = 134;
-            // 
-            // iDDataGridViewTextBoxColumn
-            // 
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
-            this.iDDataGridViewTextBoxColumn.Width = 50;
+            this.button2.Location = new System.Drawing.Point(425, 134);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(154, 26);
+            this.button2.TabIndex = 85;
+            this.button2.Text = "Скинути фільтр";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
@@ -1846,26 +1696,15 @@
         private System.Windows.Forms.DataGridView DataGridViewC;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.ComboBox comboBox17;
-        private System.Windows.Forms.Label label22;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.ComboBox comboBox18;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
         private System.Windows.Forms.ComboBox comboBox19;
-        private System.Windows.Forms.ComboBox comboBox20;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
         private System.Windows.Forms.ComboBox comboBox21;
-        private System.Windows.Forms.ComboBox comboBox22;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
         private System.Windows.Forms.ComboBox comboBox23;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.CheckBox checkBox5;
         private System.Windows.Forms.ComboBox comboBox24;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
@@ -1879,7 +1718,6 @@
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.ComboBox comboBox26;
-        private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.ComboBox comboBox27;
         private System.Windows.Forms.ComboBox comboBox28;
@@ -1889,10 +1727,7 @@
         private System.Windows.Forms.ComboBox comboBox30;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.ComboBox comboBox31;
-        private System.Windows.Forms.Label label39;
         private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.ComboBox comboBox32;
         private System.Windows.Forms.CheckBox checkBox8;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Button button7;
@@ -1965,6 +1800,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn yearOfBirthDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn yearOfBirth1DataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource cOUPLEBindingSource;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

@@ -155,7 +155,16 @@ namespace DanceSportDatabase
         {
 
         }
-        
+
+        private void DataGridViewD_DataError(object sender, DataGridViewDataErrorEventArgs e)
+        {
+
+        }
+
+        private void ResetFilterButtonD_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private void TryDeleteCurrentDancer()
         {
