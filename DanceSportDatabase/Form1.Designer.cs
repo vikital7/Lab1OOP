@@ -59,6 +59,21 @@
             this.DeleteButtonD = new System.Windows.Forms.Button();
             this.SaveButtonD = new System.Windows.Forms.Button();
             this.DataGridViewD = new System.Windows.Forms.DataGridView();
+            this.iDDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cLUBIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.surnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sexDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.heightDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.classLatDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.classStDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.yearofBirthDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Клуб = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cLUBBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.danceSportDataSet = new DanceSportDatabase.DanceSportDataSet();
+            this.fullName1DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fullName2DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dANCERBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tabPageCouples = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label41 = new System.Windows.Forms.Label();
@@ -102,8 +117,7 @@
             this.dANCERIDMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dANCERIDFDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.scoreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.yearOfBirthDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.yearOfBirth1DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cOUPLEBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tabPageClubs = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -117,6 +131,10 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.nameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.adressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dancerCountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.iDDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPageTrainers = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
@@ -140,56 +158,44 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.dANCERBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.danceSportDataSet = new DanceSportDatabase.DanceSportDataSet();
-            this.cLUBBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.iDDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dANCERIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cLUBIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DataGridViewT = new System.Windows.Forms.DataGridView();
+            this.dANCERIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cLUBIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.callNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lessonPriceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Trainer_Sex_V = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Trainer_Year_v = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Trainer_Lat_V = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Trainer_St_V = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Trainer_Sex = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.Trainer_Year = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.Trainer_Lat = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.Trainer_St = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.iDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tRAINERBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dANCERTableAdapter = new DanceSportDatabase.DanceSportDataSetTableAdapters.DANCERTableAdapter();
             this.dIRECTORTableAdapter = new DanceSportDatabase.DanceSportDataSetTableAdapters.DIRECTORTableAdapter();
             this.cLUBTableAdapter = new DanceSportDatabase.DanceSportDataSetTableAdapters.CLUBTableAdapter();
             this.cOUPLETableAdapter = new DanceSportDatabase.DanceSportDataSetTableAdapters.COUPLETableAdapter();
             this.tRAINERTableAdapter = new DanceSportDatabase.DanceSportDataSetTableAdapters.TRAINERTableAdapter();
-            this.cOUPLEBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.iDDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.adressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Dancer_Count = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Клуб = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.iDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cLUBIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.surnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sexDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.heightDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.classLatDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.classStDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.yearofBirthDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fullName1DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fullName2DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.tabPageD.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridViewD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cLUBBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.danceSportDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dANCERBindingSource)).BeginInit();
             this.tabPageCouples.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridViewC)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cOUPLEBindingSource)).BeginInit();
             this.tabPageClubs.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.tabPageTrainers.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dANCERBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.danceSportDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cLUBBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridViewT)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tRAINERBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cOUPLEBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -202,10 +208,13 @@
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(928, 623);
+            this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.FillToRight;
             this.tabControl1.TabIndex = 1;
             // 
             // tabPageD
             // 
+            this.tabPageD.BackColor = System.Drawing.Color.White;
+            this.tabPageD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.tabPageD.Controls.Add(this.ErrorLabelD);
             this.tabPageD.Controls.Add(this.groupBox1);
             this.tabPageD.Controls.Add(this.ResetButtonD);
@@ -218,7 +227,6 @@
             this.tabPageD.Size = new System.Drawing.Size(920, 594);
             this.tabPageD.TabIndex = 0;
             this.tabPageD.Text = "Танцори";
-            this.tabPageD.UseVisualStyleBackColor = true;
             // 
             // ErrorLabelD
             // 
@@ -532,16 +540,16 @@
             this.DataGridViewD.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader;
             this.DataGridViewD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DataGridViewD.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Клуб,
-            this.iDDataGridViewTextBoxColumn1,
-            this.cLUBIDDataGridViewTextBoxColumn,
+            this.iDDataGridViewTextBoxColumn2,
+            this.cLUBIDDataGridViewTextBoxColumn1,
             this.nameDataGridViewTextBoxColumn,
             this.surnameDataGridViewTextBoxColumn,
             this.sexDataGridViewTextBoxColumn,
             this.heightDataGridViewTextBoxColumn,
             this.classLatDataGridViewTextBoxColumn,
             this.classStDataGridViewTextBoxColumn,
-            this.yearofBirthDataGridViewTextBoxColumn1,
+            this.yearofBirthDataGridViewTextBoxColumn,
+            this.Клуб,
             this.fullName1DataGridViewTextBoxColumn,
             this.fullName2DataGridViewTextBoxColumn});
             this.DataGridViewD.DataSource = this.dANCERBindingSource;
@@ -553,6 +561,118 @@
             this.DataGridViewD.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.DataGridViewD_CellValidating);
             this.DataGridViewD.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridViewD_CellValueChanged);
             this.DataGridViewD.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.DataGridViewD_DataError);
+            // 
+            // iDDataGridViewTextBoxColumn2
+            // 
+            this.iDDataGridViewTextBoxColumn2.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn2.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn2.Name = "iDDataGridViewTextBoxColumn2";
+            this.iDDataGridViewTextBoxColumn2.ReadOnly = true;
+            this.iDDataGridViewTextBoxColumn2.Visible = false;
+            this.iDDataGridViewTextBoxColumn2.Width = 50;
+            // 
+            // cLUBIDDataGridViewTextBoxColumn1
+            // 
+            this.cLUBIDDataGridViewTextBoxColumn1.DataPropertyName = "CLUB_ID";
+            this.cLUBIDDataGridViewTextBoxColumn1.HeaderText = "CLUB_ID";
+            this.cLUBIDDataGridViewTextBoxColumn1.Name = "cLUBIDDataGridViewTextBoxColumn1";
+            this.cLUBIDDataGridViewTextBoxColumn1.Visible = false;
+            this.cLUBIDDataGridViewTextBoxColumn1.Width = 94;
+            // 
+            // nameDataGridViewTextBoxColumn
+            // 
+            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
+            this.nameDataGridViewTextBoxColumn.HeaderText = "Ім\'я";
+            this.nameDataGridViewTextBoxColumn.MinimumWidth = 90;
+            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            this.nameDataGridViewTextBoxColumn.Width = 90;
+            // 
+            // surnameDataGridViewTextBoxColumn
+            // 
+            this.surnameDataGridViewTextBoxColumn.DataPropertyName = "Surname";
+            this.surnameDataGridViewTextBoxColumn.HeaderText = "Прізвище";
+            this.surnameDataGridViewTextBoxColumn.Name = "surnameDataGridViewTextBoxColumn";
+            this.surnameDataGridViewTextBoxColumn.Width = 99;
+            // 
+            // sexDataGridViewTextBoxColumn
+            // 
+            this.sexDataGridViewTextBoxColumn.DataPropertyName = "Sex";
+            this.sexDataGridViewTextBoxColumn.HeaderText = "Стать";
+            this.sexDataGridViewTextBoxColumn.Name = "sexDataGridViewTextBoxColumn";
+            this.sexDataGridViewTextBoxColumn.Width = 75;
+            // 
+            // heightDataGridViewTextBoxColumn
+            // 
+            this.heightDataGridViewTextBoxColumn.DataPropertyName = "Height";
+            this.heightDataGridViewTextBoxColumn.HeaderText = "Зріст";
+            this.heightDataGridViewTextBoxColumn.Name = "heightDataGridViewTextBoxColumn";
+            this.heightDataGridViewTextBoxColumn.Width = 71;
+            // 
+            // classLatDataGridViewTextBoxColumn
+            // 
+            this.classLatDataGridViewTextBoxColumn.DataPropertyName = "Class_Lat";
+            this.classLatDataGridViewTextBoxColumn.HeaderText = "Клас Lat";
+            this.classLatDataGridViewTextBoxColumn.Name = "classLatDataGridViewTextBoxColumn";
+            this.classLatDataGridViewTextBoxColumn.Width = 93;
+            // 
+            // classStDataGridViewTextBoxColumn
+            // 
+            this.classStDataGridViewTextBoxColumn.DataPropertyName = "Class_St";
+            this.classStDataGridViewTextBoxColumn.HeaderText = "Клас St";
+            this.classStDataGridViewTextBoxColumn.Name = "classStDataGridViewTextBoxColumn";
+            this.classStDataGridViewTextBoxColumn.Width = 86;
+            // 
+            // yearofBirthDataGridViewTextBoxColumn
+            // 
+            this.yearofBirthDataGridViewTextBoxColumn.DataPropertyName = "Year_of_Birth";
+            this.yearofBirthDataGridViewTextBoxColumn.HeaderText = "Рік нар.";
+            this.yearofBirthDataGridViewTextBoxColumn.Name = "yearofBirthDataGridViewTextBoxColumn";
+            this.yearofBirthDataGridViewTextBoxColumn.Width = 88;
+            // 
+            // Клуб
+            // 
+            this.Клуб.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Клуб.DataPropertyName = "CLUB_ID";
+            this.Клуб.DataSource = this.cLUBBindingSource;
+            this.Клуб.DisplayMember = "Name";
+            this.Клуб.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.Клуб.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Клуб.HeaderText = "Клуб";
+            this.Клуб.Name = "Клуб";
+            this.Клуб.ValueMember = "ID";
+            // 
+            // cLUBBindingSource
+            // 
+            this.cLUBBindingSource.DataMember = "CLUB";
+            this.cLUBBindingSource.DataSource = this.danceSportDataSet;
+            // 
+            // danceSportDataSet
+            // 
+            this.danceSportDataSet.DataSetName = "DanceSportDataSet";
+            this.danceSportDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // fullName1DataGridViewTextBoxColumn
+            // 
+            this.fullName1DataGridViewTextBoxColumn.DataPropertyName = "FullName1";
+            this.fullName1DataGridViewTextBoxColumn.HeaderText = "FullName1";
+            this.fullName1DataGridViewTextBoxColumn.Name = "fullName1DataGridViewTextBoxColumn";
+            this.fullName1DataGridViewTextBoxColumn.ReadOnly = true;
+            this.fullName1DataGridViewTextBoxColumn.Visible = false;
+            this.fullName1DataGridViewTextBoxColumn.Width = 104;
+            // 
+            // fullName2DataGridViewTextBoxColumn
+            // 
+            this.fullName2DataGridViewTextBoxColumn.DataPropertyName = "FullName2";
+            this.fullName2DataGridViewTextBoxColumn.HeaderText = "FullName2";
+            this.fullName2DataGridViewTextBoxColumn.Name = "fullName2DataGridViewTextBoxColumn";
+            this.fullName2DataGridViewTextBoxColumn.ReadOnly = true;
+            this.fullName2DataGridViewTextBoxColumn.Visible = false;
+            this.fullName2DataGridViewTextBoxColumn.Width = 104;
+            // 
+            // dANCERBindingSource
+            // 
+            this.dANCERBindingSource.DataMember = "DANCER";
+            this.dANCERBindingSource.DataSource = this.danceSportDataSet;
             // 
             // tabPageCouples
             // 
@@ -863,6 +983,7 @@
             // DataGridViewC
             // 
             this.DataGridViewC.AllowUserToResizeRows = false;
+            this.DataGridViewC.AutoGenerateColumns = false;
             this.DataGridViewC.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader;
             this.DataGridViewC.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DataGridViewC.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -880,15 +1001,15 @@
             this.iDDataGridViewTextBoxColumn,
             this.dANCERIDMDataGridViewTextBoxColumn,
             this.dANCERIDFDataGridViewTextBoxColumn,
-            this.scoreDataGridViewTextBoxColumn,
-            this.yearOfBirthDataGridViewTextBoxColumn,
-            this.yearOfBirth1DataGridViewTextBoxColumn});
+            this.scoreDataGridViewTextBoxColumn});
+            this.DataGridViewC.DataSource = this.cOUPLEBindingSource;
             this.DataGridViewC.Location = new System.Drawing.Point(26, 227);
             this.DataGridViewC.Name = "DataGridViewC";
-            this.DataGridViewC.RowHeadersVisible = false;
             this.DataGridViewC.RowTemplate.Height = 24;
             this.DataGridViewC.Size = new System.Drawing.Size(864, 340);
             this.DataGridViewC.TabIndex = 75;
+            this.DataGridViewC.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridViewC_CellValueChanged);
+            this.DataGridViewC.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.DataGridViewC_DataError);
             // 
             // Name_M
             // 
@@ -939,54 +1060,73 @@
             // Year1
             // 
             this.Year1.DataPropertyName = "DANCER_ID_M";
+            this.Year1.DataSource = this.dANCERBindingSource;
+            this.Year1.DisplayMember = "Year_of_Birth";
             this.Year1.HeaderText = "Year1";
             this.Year1.Name = "Year1";
             this.Year1.ReadOnly = true;
+            this.Year1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Year1.ValueMember = "ID";
             this.Year1.Visible = false;
             this.Year1.Width = 52;
             // 
             // Year2
             // 
             this.Year2.DataPropertyName = "DANCER_ID_F";
+            this.Year2.DataSource = this.dANCERBindingSource;
+            this.Year2.DisplayMember = "Year_of_Birth";
             this.Year2.HeaderText = "Year2";
             this.Year2.Name = "Year2";
             this.Year2.ReadOnly = true;
+            this.Year2.ValueMember = "ID";
             this.Year2.Visible = false;
             this.Year2.Width = 52;
             // 
             // Lat1
             // 
             this.Lat1.DataPropertyName = "DANCER_ID_M";
+            this.Lat1.DataSource = this.dANCERBindingSource;
+            this.Lat1.DisplayMember = "Class_Lat";
             this.Lat1.HeaderText = "Lat1";
             this.Lat1.Name = "Lat1";
             this.Lat1.ReadOnly = true;
+            this.Lat1.ValueMember = "ID";
             this.Lat1.Visible = false;
             this.Lat1.Width = 42;
             // 
             // Lat2
             // 
             this.Lat2.DataPropertyName = "DANCER_ID_F";
+            this.Lat2.DataSource = this.dANCERBindingSource;
+            this.Lat2.DisplayMember = "Class_Lat";
             this.Lat2.HeaderText = "Lat2";
             this.Lat2.Name = "Lat2";
             this.Lat2.ReadOnly = true;
+            this.Lat2.ValueMember = "ID";
             this.Lat2.Visible = false;
             this.Lat2.Width = 42;
             // 
             // St1
             // 
             this.St1.DataPropertyName = "DANCER_ID_M";
+            this.St1.DataSource = this.dANCERBindingSource;
+            this.St1.DisplayMember = "Class_St";
             this.St1.HeaderText = "St1";
             this.St1.Name = "St1";
             this.St1.ReadOnly = true;
+            this.St1.ValueMember = "ID";
             this.St1.Visible = false;
             this.St1.Width = 35;
             // 
             // St2
             // 
             this.St2.DataPropertyName = "DANCER_ID_F";
+            this.St2.DataSource = this.dANCERBindingSource;
+            this.St2.DisplayMember = "Class_St";
             this.St2.HeaderText = "St2";
             this.St2.Name = "St2";
             this.St2.ReadOnly = true;
+            this.St2.ValueMember = "ID";
             this.St2.Visible = false;
             this.St2.Width = 35;
             // 
@@ -996,6 +1136,7 @@
             this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
             this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
             this.iDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.iDDataGridViewTextBoxColumn.Visible = false;
             this.iDDataGridViewTextBoxColumn.Width = 50;
             // 
             // dANCERIDMDataGridViewTextBoxColumn
@@ -1003,6 +1144,7 @@
             this.dANCERIDMDataGridViewTextBoxColumn.DataPropertyName = "DANCER_ID_M";
             this.dANCERIDMDataGridViewTextBoxColumn.HeaderText = "DANCER_ID_M";
             this.dANCERIDMDataGridViewTextBoxColumn.Name = "dANCERIDMDataGridViewTextBoxColumn";
+            this.dANCERIDMDataGridViewTextBoxColumn.Visible = false;
             this.dANCERIDMDataGridViewTextBoxColumn.Width = 134;
             // 
             // dANCERIDFDataGridViewTextBoxColumn
@@ -1010,28 +1152,20 @@
             this.dANCERIDFDataGridViewTextBoxColumn.DataPropertyName = "DANCER_ID_F";
             this.dANCERIDFDataGridViewTextBoxColumn.HeaderText = "DANCER_ID_F";
             this.dANCERIDFDataGridViewTextBoxColumn.Name = "dANCERIDFDataGridViewTextBoxColumn";
+            this.dANCERIDFDataGridViewTextBoxColumn.Visible = false;
             this.dANCERIDFDataGridViewTextBoxColumn.Width = 131;
             // 
             // scoreDataGridViewTextBoxColumn
             // 
             this.scoreDataGridViewTextBoxColumn.DataPropertyName = "Score";
-            this.scoreDataGridViewTextBoxColumn.HeaderText = "Score";
+            this.scoreDataGridViewTextBoxColumn.HeaderText = "Рейтинг";
             this.scoreDataGridViewTextBoxColumn.Name = "scoreDataGridViewTextBoxColumn";
-            this.scoreDataGridViewTextBoxColumn.Width = 74;
+            this.scoreDataGridViewTextBoxColumn.Width = 90;
             // 
-            // yearOfBirthDataGridViewTextBoxColumn
+            // cOUPLEBindingSource
             // 
-            this.yearOfBirthDataGridViewTextBoxColumn.DataPropertyName = "Year_Of_Birth";
-            this.yearOfBirthDataGridViewTextBoxColumn.HeaderText = "Year_Of_Birth";
-            this.yearOfBirthDataGridViewTextBoxColumn.Name = "yearOfBirthDataGridViewTextBoxColumn";
-            this.yearOfBirthDataGridViewTextBoxColumn.Width = 127;
-            // 
-            // yearOfBirth1DataGridViewTextBoxColumn
-            // 
-            this.yearOfBirth1DataGridViewTextBoxColumn.DataPropertyName = "Year_Of_Birth1";
-            this.yearOfBirth1DataGridViewTextBoxColumn.HeaderText = "Year_Of_Birth1";
-            this.yearOfBirth1DataGridViewTextBoxColumn.Name = "yearOfBirth1DataGridViewTextBoxColumn";
-            this.yearOfBirth1DataGridViewTextBoxColumn.Width = 135;
+            this.cOUPLEBindingSource.DataMember = "COUPLE";
+            this.cOUPLEBindingSource.DataSource = this.danceSportDataSet;
             // 
             // tabPageClubs
             // 
@@ -1160,10 +1294,10 @@
             this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.iDDataGridViewTextBoxColumn2,
             this.nameDataGridViewTextBoxColumn1,
             this.adressDataGridViewTextBoxColumn,
-            this.Dancer_Count});
+            this.dancerCountDataGridViewTextBoxColumn,
+            this.iDDataGridViewTextBoxColumn3});
             this.dataGridView2.DataSource = this.cLUBBindingSource;
             this.dataGridView2.Location = new System.Drawing.Point(26, 227);
             this.dataGridView2.Name = "dataGridView2";
@@ -1171,13 +1305,44 @@
             this.dataGridView2.Size = new System.Drawing.Size(864, 340);
             this.dataGridView2.TabIndex = 80;
             // 
+            // nameDataGridViewTextBoxColumn1
+            // 
+            this.nameDataGridViewTextBoxColumn1.DataPropertyName = "Name";
+            this.nameDataGridViewTextBoxColumn1.HeaderText = "Назва";
+            this.nameDataGridViewTextBoxColumn1.Name = "nameDataGridViewTextBoxColumn1";
+            this.nameDataGridViewTextBoxColumn1.Width = 77;
+            // 
+            // adressDataGridViewTextBoxColumn
+            // 
+            this.adressDataGridViewTextBoxColumn.DataPropertyName = "Adress";
+            this.adressDataGridViewTextBoxColumn.HeaderText = "Адреса";
+            this.adressDataGridViewTextBoxColumn.Name = "adressDataGridViewTextBoxColumn";
+            this.adressDataGridViewTextBoxColumn.Width = 85;
+            // 
+            // dancerCountDataGridViewTextBoxColumn
+            // 
+            this.dancerCountDataGridViewTextBoxColumn.DataPropertyName = "Dancer_Count";
+            this.dancerCountDataGridViewTextBoxColumn.HeaderText = "К-сть танцорів";
+            this.dancerCountDataGridViewTextBoxColumn.Name = "dancerCountDataGridViewTextBoxColumn";
+            this.dancerCountDataGridViewTextBoxColumn.ReadOnly = true;
+            this.dancerCountDataGridViewTextBoxColumn.Width = 122;
+            // 
+            // iDDataGridViewTextBoxColumn3
+            // 
+            this.iDDataGridViewTextBoxColumn3.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn3.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn3.Name = "iDDataGridViewTextBoxColumn3";
+            this.iDDataGridViewTextBoxColumn3.ReadOnly = true;
+            this.iDDataGridViewTextBoxColumn3.Visible = false;
+            this.iDDataGridViewTextBoxColumn3.Width = 50;
+            // 
             // tabPageTrainers
             // 
             this.tabPageTrainers.Controls.Add(this.groupBox4);
             this.tabPageTrainers.Controls.Add(this.button7);
             this.tabPageTrainers.Controls.Add(this.button8);
             this.tabPageTrainers.Controls.Add(this.button9);
-            this.tabPageTrainers.Controls.Add(this.dataGridView3);
+            this.tabPageTrainers.Controls.Add(this.DataGridViewT);
             this.tabPageTrainers.Location = new System.Drawing.Point(4, 25);
             this.tabPageTrainers.Name = "tabPageTrainers";
             this.tabPageTrainers.Size = new System.Drawing.Size(920, 594);
@@ -1407,75 +1572,160 @@
             this.button9.Text = "Зберегти зміни";
             this.button9.UseVisualStyleBackColor = true;
             // 
-            // dataGridView3
+            // DataGridViewT
             // 
-            this.dataGridView3.AllowUserToResizeRows = false;
-            this.dataGridView3.AutoGenerateColumns = false;
-            this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.iDDataGridViewTextBoxColumn3,
+            this.DataGridViewT.AllowUserToResizeRows = false;
+            this.DataGridViewT.AutoGenerateColumns = false;
+            this.DataGridViewT.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader;
+            this.DataGridViewT.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridViewT.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dANCERIDDataGridViewTextBoxColumn,
-            this.cLUBIDDataGridViewTextBoxColumn1,
+            this.cLUBIDDataGridViewTextBoxColumn,
             this.callNumberDataGridViewTextBoxColumn,
-            this.lessonPriceDataGridViewTextBoxColumn});
-            this.dataGridView3.DataSource = this.tRAINERBindingSource;
-            this.dataGridView3.Location = new System.Drawing.Point(26, 227);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.RowTemplate.Height = 24;
-            this.dataGridView3.Size = new System.Drawing.Size(864, 340);
-            this.dataGridView3.TabIndex = 80;
-            // 
-            // dANCERBindingSource
-            // 
-            this.dANCERBindingSource.DataMember = "DANCER";
-            this.dANCERBindingSource.DataSource = this.danceSportDataSet;
-            // 
-            // danceSportDataSet
-            // 
-            this.danceSportDataSet.DataSetName = "DanceSportDataSet";
-            this.danceSportDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // cLUBBindingSource
-            // 
-            this.cLUBBindingSource.DataMember = "CLUB";
-            this.cLUBBindingSource.DataSource = this.danceSportDataSet;
-            // 
-            // iDDataGridViewTextBoxColumn3
-            // 
-            this.iDDataGridViewTextBoxColumn3.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn3.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn3.Name = "iDDataGridViewTextBoxColumn3";
-            this.iDDataGridViewTextBoxColumn3.ReadOnly = true;
-            this.iDDataGridViewTextBoxColumn3.Width = 50;
+            this.lessonPriceDataGridViewTextBoxColumn,
+            this.Trainer_Sex_V,
+            this.Trainer_Year_v,
+            this.Trainer_Lat_V,
+            this.Trainer_St_V,
+            this.Trainer_Sex,
+            this.Trainer_Year,
+            this.Trainer_Lat,
+            this.Trainer_St,
+            this.iDDataGridViewTextBoxColumn1});
+            this.DataGridViewT.DataSource = this.tRAINERBindingSource;
+            this.DataGridViewT.Location = new System.Drawing.Point(26, 227);
+            this.DataGridViewT.Name = "DataGridViewT";
+            this.DataGridViewT.RowTemplate.Height = 24;
+            this.DataGridViewT.Size = new System.Drawing.Size(864, 340);
+            this.DataGridViewT.TabIndex = 80;
+            this.DataGridViewT.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridViewT_CellValueChanged);
+            this.DataGridViewT.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.DataGridViewT_DataError);
             // 
             // dANCERIDDataGridViewTextBoxColumn
             // 
             this.dANCERIDDataGridViewTextBoxColumn.DataPropertyName = "DANCER_ID";
-            this.dANCERIDDataGridViewTextBoxColumn.HeaderText = "DANCER_ID";
+            this.dANCERIDDataGridViewTextBoxColumn.DataSource = this.dANCERBindingSource;
+            this.dANCERIDDataGridViewTextBoxColumn.DisplayMember = "FullName1";
+            this.dANCERIDDataGridViewTextBoxColumn.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dANCERIDDataGridViewTextBoxColumn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.dANCERIDDataGridViewTextBoxColumn.HeaderText = "Танцор";
             this.dANCERIDDataGridViewTextBoxColumn.Name = "dANCERIDDataGridViewTextBoxColumn";
-            this.dANCERIDDataGridViewTextBoxColumn.Width = 115;
+            this.dANCERIDDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dANCERIDDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dANCERIDDataGridViewTextBoxColumn.ValueMember = "ID";
+            this.dANCERIDDataGridViewTextBoxColumn.Width = 86;
             // 
-            // cLUBIDDataGridViewTextBoxColumn1
+            // cLUBIDDataGridViewTextBoxColumn
             // 
-            this.cLUBIDDataGridViewTextBoxColumn1.DataPropertyName = "CLUB_ID";
-            this.cLUBIDDataGridViewTextBoxColumn1.HeaderText = "CLUB_ID";
-            this.cLUBIDDataGridViewTextBoxColumn1.Name = "cLUBIDDataGridViewTextBoxColumn1";
-            this.cLUBIDDataGridViewTextBoxColumn1.Width = 94;
+            this.cLUBIDDataGridViewTextBoxColumn.DataPropertyName = "CLUB_ID";
+            this.cLUBIDDataGridViewTextBoxColumn.DataSource = this.cLUBBindingSource;
+            this.cLUBIDDataGridViewTextBoxColumn.DisplayMember = "Name";
+            this.cLUBIDDataGridViewTextBoxColumn.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.cLUBIDDataGridViewTextBoxColumn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cLUBIDDataGridViewTextBoxColumn.HeaderText = "Клуб";
+            this.cLUBIDDataGridViewTextBoxColumn.Name = "cLUBIDDataGridViewTextBoxColumn";
+            this.cLUBIDDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cLUBIDDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.cLUBIDDataGridViewTextBoxColumn.ValueMember = "ID";
+            this.cLUBIDDataGridViewTextBoxColumn.Width = 69;
             // 
             // callNumberDataGridViewTextBoxColumn
             // 
             this.callNumberDataGridViewTextBoxColumn.DataPropertyName = "Call_Number";
-            this.callNumberDataGridViewTextBoxColumn.HeaderText = "Call_Number";
+            this.callNumberDataGridViewTextBoxColumn.HeaderText = "Моб. телефон";
             this.callNumberDataGridViewTextBoxColumn.Name = "callNumberDataGridViewTextBoxColumn";
-            this.callNumberDataGridViewTextBoxColumn.Width = 118;
+            this.callNumberDataGridViewTextBoxColumn.Width = 130;
             // 
             // lessonPriceDataGridViewTextBoxColumn
             // 
             this.lessonPriceDataGridViewTextBoxColumn.DataPropertyName = "Lesson_Price";
-            this.lessonPriceDataGridViewTextBoxColumn.HeaderText = "Lesson_Price";
+            this.lessonPriceDataGridViewTextBoxColumn.HeaderText = "Ціна заняття";
             this.lessonPriceDataGridViewTextBoxColumn.Name = "lessonPriceDataGridViewTextBoxColumn";
-            this.lessonPriceDataGridViewTextBoxColumn.Width = 123;
+            this.lessonPriceDataGridViewTextBoxColumn.Width = 124;
+            // 
+            // Trainer_Sex_V
+            // 
+            this.Trainer_Sex_V.HeaderText = "Стать";
+            this.Trainer_Sex_V.Name = "Trainer_Sex_V";
+            this.Trainer_Sex_V.ReadOnly = true;
+            this.Trainer_Sex_V.Width = 75;
+            // 
+            // Trainer_Year_v
+            // 
+            this.Trainer_Year_v.HeaderText = "Рік нар.";
+            this.Trainer_Year_v.Name = "Trainer_Year_v";
+            this.Trainer_Year_v.ReadOnly = true;
+            this.Trainer_Year_v.Width = 88;
+            // 
+            // Trainer_Lat_V
+            // 
+            this.Trainer_Lat_V.HeaderText = "Клас Lat";
+            this.Trainer_Lat_V.Name = "Trainer_Lat_V";
+            this.Trainer_Lat_V.ReadOnly = true;
+            this.Trainer_Lat_V.Width = 93;
+            // 
+            // Trainer_St_V
+            // 
+            this.Trainer_St_V.HeaderText = "Клас St";
+            this.Trainer_St_V.Name = "Trainer_St_V";
+            this.Trainer_St_V.ReadOnly = true;
+            this.Trainer_St_V.Width = 86;
+            // 
+            // Trainer_Sex
+            // 
+            this.Trainer_Sex.DataPropertyName = "DANCER_ID";
+            this.Trainer_Sex.DataSource = this.dANCERBindingSource;
+            this.Trainer_Sex.DisplayMember = "Sex";
+            this.Trainer_Sex.HeaderText = "Sex";
+            this.Trainer_Sex.Name = "Trainer_Sex";
+            this.Trainer_Sex.ReadOnly = true;
+            this.Trainer_Sex.ValueMember = "ID";
+            this.Trainer_Sex.Visible = false;
+            this.Trainer_Sex.Width = 37;
+            // 
+            // Trainer_Year
+            // 
+            this.Trainer_Year.DataPropertyName = "DANCER_ID";
+            this.Trainer_Year.DataSource = this.dANCERBindingSource;
+            this.Trainer_Year.DisplayMember = "Year_of_Birth";
+            this.Trainer_Year.HeaderText = "Year";
+            this.Trainer_Year.Name = "Trainer_Year";
+            this.Trainer_Year.ValueMember = "ID";
+            this.Trainer_Year.Visible = false;
+            this.Trainer_Year.Width = 44;
+            // 
+            // Trainer_Lat
+            // 
+            this.Trainer_Lat.DataPropertyName = "DANCER_ID";
+            this.Trainer_Lat.DataSource = this.dANCERBindingSource;
+            this.Trainer_Lat.DisplayMember = "Class_Lat";
+            this.Trainer_Lat.HeaderText = "Lat";
+            this.Trainer_Lat.Name = "Trainer_Lat";
+            this.Trainer_Lat.ReadOnly = true;
+            this.Trainer_Lat.ValueMember = "ID";
+            this.Trainer_Lat.Visible = false;
+            this.Trainer_Lat.Width = 34;
+            // 
+            // Trainer_St
+            // 
+            this.Trainer_St.DataPropertyName = "DANCER_ID";
+            this.Trainer_St.DataSource = this.dANCERBindingSource;
+            this.Trainer_St.DisplayMember = "Class_St";
+            this.Trainer_St.HeaderText = "St";
+            this.Trainer_St.Name = "Trainer_St";
+            this.Trainer_St.ReadOnly = true;
+            this.Trainer_St.ValueMember = "ID";
+            this.Trainer_St.Visible = false;
+            this.Trainer_St.Width = 27;
+            // 
+            // iDDataGridViewTextBoxColumn1
+            // 
+            this.iDDataGridViewTextBoxColumn1.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn1.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn1.Name = "iDDataGridViewTextBoxColumn1";
+            this.iDDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.iDDataGridViewTextBoxColumn1.Visible = false;
+            this.iDDataGridViewTextBoxColumn1.Width = 50;
             // 
             // tRAINERBindingSource
             // 
@@ -1502,135 +1752,12 @@
             // 
             this.tRAINERTableAdapter.ClearBeforeFill = true;
             // 
-            // cOUPLEBindingSource
-            // 
-            this.cOUPLEBindingSource.DataMember = "COUPLE";
-            this.cOUPLEBindingSource.DataSource = this.danceSportDataSet;
-            // 
-            // iDDataGridViewTextBoxColumn2
-            // 
-            this.iDDataGridViewTextBoxColumn2.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn2.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn2.Name = "iDDataGridViewTextBoxColumn2";
-            this.iDDataGridViewTextBoxColumn2.ReadOnly = true;
-            this.iDDataGridViewTextBoxColumn2.Width = 50;
-            // 
-            // nameDataGridViewTextBoxColumn1
-            // 
-            this.nameDataGridViewTextBoxColumn1.DataPropertyName = "Name";
-            this.nameDataGridViewTextBoxColumn1.HeaderText = "Name";
-            this.nameDataGridViewTextBoxColumn1.Name = "nameDataGridViewTextBoxColumn1";
-            this.nameDataGridViewTextBoxColumn1.Width = 74;
-            // 
-            // adressDataGridViewTextBoxColumn
-            // 
-            this.adressDataGridViewTextBoxColumn.DataPropertyName = "Adress";
-            this.adressDataGridViewTextBoxColumn.HeaderText = "Adress";
-            this.adressDataGridViewTextBoxColumn.Name = "adressDataGridViewTextBoxColumn";
-            this.adressDataGridViewTextBoxColumn.Width = 81;
-            // 
-            // Dancer_Count
-            // 
-            this.Dancer_Count.DataPropertyName = "Dancer_Count";
-            this.Dancer_Count.HeaderText = "Dancer_Count";
-            this.Dancer_Count.Name = "Dancer_Count";
-            this.Dancer_Count.ReadOnly = true;
-            this.Dancer_Count.Width = 128;
-            // 
-            // Клуб
-            // 
-            this.Клуб.DataPropertyName = "CLUB_ID";
-            this.Клуб.DataSource = this.cLUBBindingSource;
-            this.Клуб.DisplayMember = "Name";
-            this.Клуб.HeaderText = "Club_name";
-            this.Клуб.Name = "Клуб";
-            this.Клуб.ValueMember = "ID";
-            this.Клуб.Width = 85;
-            // 
-            // iDDataGridViewTextBoxColumn1
-            // 
-            this.iDDataGridViewTextBoxColumn1.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn1.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn1.Name = "iDDataGridViewTextBoxColumn1";
-            this.iDDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.iDDataGridViewTextBoxColumn1.Width = 50;
-            // 
-            // cLUBIDDataGridViewTextBoxColumn
-            // 
-            this.cLUBIDDataGridViewTextBoxColumn.DataPropertyName = "CLUB_ID";
-            this.cLUBIDDataGridViewTextBoxColumn.HeaderText = "CLUB_ID";
-            this.cLUBIDDataGridViewTextBoxColumn.Name = "cLUBIDDataGridViewTextBoxColumn";
-            this.cLUBIDDataGridViewTextBoxColumn.Width = 94;
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            this.nameDataGridViewTextBoxColumn.Width = 74;
-            // 
-            // surnameDataGridViewTextBoxColumn
-            // 
-            this.surnameDataGridViewTextBoxColumn.DataPropertyName = "Surname";
-            this.surnameDataGridViewTextBoxColumn.HeaderText = "Surname";
-            this.surnameDataGridViewTextBoxColumn.Name = "surnameDataGridViewTextBoxColumn";
-            this.surnameDataGridViewTextBoxColumn.Width = 94;
-            // 
-            // sexDataGridViewTextBoxColumn
-            // 
-            this.sexDataGridViewTextBoxColumn.DataPropertyName = "Sex";
-            this.sexDataGridViewTextBoxColumn.HeaderText = "Sex";
-            this.sexDataGridViewTextBoxColumn.Name = "sexDataGridViewTextBoxColumn";
-            this.sexDataGridViewTextBoxColumn.Width = 60;
-            // 
-            // heightDataGridViewTextBoxColumn
-            // 
-            this.heightDataGridViewTextBoxColumn.DataPropertyName = "Height";
-            this.heightDataGridViewTextBoxColumn.HeaderText = "Height";
-            this.heightDataGridViewTextBoxColumn.Name = "heightDataGridViewTextBoxColumn";
-            this.heightDataGridViewTextBoxColumn.Width = 78;
-            // 
-            // classLatDataGridViewTextBoxColumn
-            // 
-            this.classLatDataGridViewTextBoxColumn.DataPropertyName = "Class_Lat";
-            this.classLatDataGridViewTextBoxColumn.HeaderText = "Class_Lat";
-            this.classLatDataGridViewTextBoxColumn.Name = "classLatDataGridViewTextBoxColumn";
-            this.classLatDataGridViewTextBoxColumn.Width = 99;
-            // 
-            // classStDataGridViewTextBoxColumn
-            // 
-            this.classStDataGridViewTextBoxColumn.DataPropertyName = "Class_St";
-            this.classStDataGridViewTextBoxColumn.HeaderText = "Class_St";
-            this.classStDataGridViewTextBoxColumn.Name = "classStDataGridViewTextBoxColumn";
-            this.classStDataGridViewTextBoxColumn.Width = 92;
-            // 
-            // yearofBirthDataGridViewTextBoxColumn1
-            // 
-            this.yearofBirthDataGridViewTextBoxColumn1.DataPropertyName = "Year_of_Birth";
-            this.yearofBirthDataGridViewTextBoxColumn1.HeaderText = "Year_of_Birth";
-            this.yearofBirthDataGridViewTextBoxColumn1.Name = "yearofBirthDataGridViewTextBoxColumn1";
-            this.yearofBirthDataGridViewTextBoxColumn1.Width = 124;
-            // 
-            // fullName1DataGridViewTextBoxColumn
-            // 
-            this.fullName1DataGridViewTextBoxColumn.DataPropertyName = "FullName1";
-            this.fullName1DataGridViewTextBoxColumn.HeaderText = "FullName1";
-            this.fullName1DataGridViewTextBoxColumn.Name = "fullName1DataGridViewTextBoxColumn";
-            this.fullName1DataGridViewTextBoxColumn.ReadOnly = true;
-            this.fullName1DataGridViewTextBoxColumn.Width = 104;
-            // 
-            // fullName2DataGridViewTextBoxColumn
-            // 
-            this.fullName2DataGridViewTextBoxColumn.DataPropertyName = "FullName2";
-            this.fullName2DataGridViewTextBoxColumn.HeaderText = "FullName2";
-            this.fullName2DataGridViewTextBoxColumn.Name = "fullName2DataGridViewTextBoxColumn";
-            this.fullName2DataGridViewTextBoxColumn.ReadOnly = true;
-            this.fullName2DataGridViewTextBoxColumn.Width = 104;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(947, 653);
             this.Controls.Add(this.tabControl1);
             this.Name = "MainForm";
@@ -1642,10 +1769,14 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridViewD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cLUBBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.danceSportDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dANCERBindingSource)).EndInit();
             this.tabPageCouples.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridViewC)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cOUPLEBindingSource)).EndInit();
             this.tabPageClubs.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
@@ -1653,12 +1784,8 @@
             this.tabPageTrainers.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dANCERBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.danceSportDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cLUBBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridViewT)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tRAINERBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cOUPLEBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1735,7 +1862,7 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.DataGridView DataGridViewT;
         private DanceSportDataSetTableAdapters.TRAINERTableAdapter tRAINERTableAdapter;
         private System.Windows.Forms.Button ResetFilterButtonD;
         private System.Windows.Forms.Label ErrorLabelD;
@@ -1765,13 +1892,24 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.TextBox NameFTextBox;
         private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dANCERIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cLUBIDDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn callNumberDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn lessonPriceDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource tRAINERBindingSource;
         private System.Windows.Forms.BindingSource dANCERBindingSource;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.BindingSource cOUPLEBindingSource;
+        private System.Windows.Forms.BindingSource cLUBBindingSource;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cLUBIDDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn surnameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sexDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn heightDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn classLatDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn classStDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn yearofBirthDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewComboBoxColumn Клуб;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fullName1DataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fullName2DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewComboBoxColumn Name_M;
         private System.Windows.Forms.DataGridViewComboBoxColumn Name_F;
         private System.Windows.Forms.DataGridViewTextBoxColumn Year;
@@ -1787,28 +1925,23 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dANCERIDMDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dANCERIDFDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn scoreDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn yearOfBirthDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn yearOfBirth1DataGridViewTextBoxColumn;
-        private System.Windows.Forms.BindingSource cOUPLEBindingSource;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.BindingSource cLUBBindingSource;
-        private System.Windows.Forms.DataGridViewComboBoxColumn Клуб;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cLUBIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn surnameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sexDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn heightDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn classLatDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn classStDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn yearofBirthDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn fullName1DataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn fullName2DataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn adressDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Dancer_Count;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dancerCountDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewComboBoxColumn dANCERIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewComboBoxColumn cLUBIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn callNumberDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn lessonPriceDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Trainer_Sex_V;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Trainer_Year_v;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Trainer_Lat_V;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Trainer_St_V;
+        private System.Windows.Forms.DataGridViewComboBoxColumn Trainer_Sex;
+        private System.Windows.Forms.DataGridViewComboBoxColumn Trainer_Year;
+        private System.Windows.Forms.DataGridViewComboBoxColumn Trainer_Lat;
+        private System.Windows.Forms.DataGridViewComboBoxColumn Trainer_St;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn1;
     }
 }
 

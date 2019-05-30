@@ -195,7 +195,7 @@ namespace DanceSportDatabase
 
         private void SaveButtonC_Click(object sender, EventArgs e)
         {
-            cOUPLETableAdapter.Update(this.danceSportDataSet.COUPLE);
+            //cOUPLETableAdapter.Update(this.danceSportDataSet.COUPLE);
             FillTableAdapter(CoupleAdapterId);
         }
 

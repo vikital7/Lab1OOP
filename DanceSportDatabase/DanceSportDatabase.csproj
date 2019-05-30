@@ -80,6 +80,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="DanceSportDataSet.xsc">
       <DependentUpon>DanceSportDataSet.xsd</DependentUpon>
@@ -110,6 +111,11 @@
       <Project>{a5c803e1-c9a6-417f-b6f3-cb6a79551060}</Project>
       <Name>DanceSportData</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="theme.jpg" />
+    <None Include="theme3.jpg" />
+    <None Include="theme2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -59,12 +59,14 @@ namespace DanceSportDatabase
                     //    configС.minYear, configС.maxYear, configС.minClassLat, configС.maxClassLat, configС.minClassSt, configС.maxClassSt,
                     //    configС.minRating, configС.maxRating);
                     //FillCoupleExtraData();
+                    UpdateDetailsC();
                     break;
                 case 3: //Fill Club TableAdapter
                     this.cLUBTableAdapter.Fill(this.danceSportDataSet.CLUB);
                     break;
                 case 4: //Fill Trainer TableAdapter
                     this.tRAINERTableAdapter.Fill(this.danceSportDataSet.TRAINER);
+                    UpdateDetailsT();
                     break;
                 case 5: //Fill Director TableAdapter
                     this.dIRECTORTableAdapter.Fill(this.danceSportDataSet.DIRECTOR);
@@ -157,6 +159,59 @@ namespace DanceSportDatabase
         }
 
         private void DataGridViewD_DataError(object sender, DataGridViewDataErrorEventArgs e)
+        {
+
+        }
+
+        private void DataGridViewC_DataError(object sender, DataGridViewDataErrorEventArgs e)
+        {
+
+        }
+
+        private void DataGridViewC_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+            UpdateDetailsC();
+        }
+
+        private string BestClass(string class1, string class2)
+        {
+            if (class1 == "S" || class2 == "S")
+                return "S";
+            else
+                return (class1.CompareTo(class2) == -1) ? class1 : class2;
+        }
+        private void UpdateDetailsC()
+        {
+            if (DataGridViewC.Rows.Count == 0) return;
+            for (int r = 0; r < DataGridViewC.Rows.Count-1; r++)
+            {
+                DataGridViewC[2, r].Value = Math.Min(Int32.Parse(DataGridViewC[5, r].FormattedValue.ToString()), Int32.Parse(DataGridViewC[6, r].FormattedValue.ToString()));
+                DataGridViewC[3, r].Value = BestClass(DataGridViewC[7, r].FormattedValue.ToString(), DataGridViewC[8, r].FormattedValue.ToString());
+                DataGridViewC[4, r].Value = BestClass(DataGridViewC[9, r].FormattedValue.ToString(), DataGridViewC[10, r].FormattedValue.ToString());
+
+                DataGridViewC.NotifyCurrentCellDirty(true);
+            }
+        }
+
+        private void UpdateDetailsT()
+        {
+            if (DataGridViewT.Rows.Count == 0) return;
+            for (int r = 0; r < DataGridViewT.Rows.Count - 1; r++)
+            {
+                DataGridViewT[4, r].Value = DataGridViewT[8, r].FormattedValue;
+                DataGridViewT[5, r].Value = DataGridViewT[9, r].FormattedValue;
+                DataGridViewT[6, r].Value = DataGridViewT[10, r].FormattedValue;
+                DataGridViewT[7, r].Value = DataGridViewT[11, r].FormattedValue;
+                DataGridViewT.NotifyCurrentCellDirty(true);
+            }
+        }
+
+        private void DataGridViewT_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+            UpdateDetailsT();
+        }
+
+        private void DataGridViewT_DataError(object sender, DataGridViewDataErrorEventArgs e)
         {
 
         }
